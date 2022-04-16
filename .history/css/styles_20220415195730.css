@@ -1,17 +1,12 @@
-:root {
+.root {
     font-family: 'Lato', sans-serif;
 }
 h1 {
-    font-family: 'Prata', serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 400;
-    font-size: 3em;
 }
 a {
     font-family: 'Playfair Display', serif;
-    font-size: 1.5em;
+    size: .75em;
     font-weight: 700;
-}
-h3 {
-    font-size: 1.5em;
-    font-weight: 300;
 }

@@ -1,4 +1,4 @@
-:root {
+.root {
     font-family: 'Lato', sans-serif;
 }
 h1 {
@@ -10,8 +10,4 @@ a {
     font-family: 'Playfair Display', serif;
     font-size: 1.5em;
     font-weight: 700;
-}
-h3 {
-    font-size: 1.5em;
-    font-weight: 300;
 }

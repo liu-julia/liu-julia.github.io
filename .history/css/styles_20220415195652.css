@@ -1,0 +1,11 @@
+.root {
+    font-family: 'Lato', sans-serif;
+}
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+a {
+    font-family: 'Playfair Display', serif;
+    size: .75em;
+    font-weight: 700;
+}
