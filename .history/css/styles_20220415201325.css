@@ -1,5 +1,5 @@
 :root {
-    font-family: 'Karla', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 h1 {
     font-family: 'Prata', serif;
@@ -10,9 +10,8 @@ a {
     font-family: 'Playfair Display', serif;
     font-size: 1.5em;
     font-weight: 700;
-    text-decoration: none;
 }
 h3 {
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: 400;
 }
