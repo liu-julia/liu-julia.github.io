@@ -1,0 +1,60 @@
+:root {
+    font-family: 'Karla', sans-serif;
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+}
+#content {
+    height: 100%;
+}
+h1 {
+    font-family: 'Prata', serif;
+    font-weight: 400;
+    font-size: 6em;
+}
+#top {
+    height: 100%;
+}
+h1{
+    transform: translate(0, 50%);
+    position: relative;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    width: 75%;
+}
+.highlighted::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    background: #ffdddd;
+    left: .25em;
+    bottom: .15em;
+    height: .7em;
+    z-index: -1;
+}
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+}
+h3 {
+    font-family: 'Prata', serif;
+    font-size: 2em;
+}
+a {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-decoration: none;
+}
+#head_desc {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+.project {
+    display: flex;
+    align-items: center;
+}
