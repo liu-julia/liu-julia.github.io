@@ -63,7 +63,7 @@ h1.highlighted::before {
     bottom: .15em;
     height: .7em;
     z-index: -1;
-    animation: highlightAnimation ease 3s;
+    animation: transform ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
@@ -71,11 +71,9 @@ h1.highlighted::before {
 @keyframes highlightAnimation {
     0% {
         transform: scaleX(0);
-        transform-origin: left;
     }
     100% {
         transform: scaleX(1);
-        transform-origin: left;
      }
 }
 

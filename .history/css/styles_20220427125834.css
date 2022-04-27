@@ -63,22 +63,7 @@ h1.highlighted::before {
     bottom: .15em;
     height: .7em;
     z-index: -1;
-    animation: highlightAnimation ease 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
 }
-
-@keyframes highlightAnimation {
-    0% {
-        transform: scaleX(0);
-        transform-origin: left;
-    }
-    100% {
-        transform: scaleX(1);
-        transform-origin: left;
-     }
-}
-
 #navbar a.highlighted::before {
     content: "";
     position: absolute;
@@ -191,7 +176,7 @@ a:hover {
 }
 
 body {
-    animation: fadeInAnimation ease 2s;
+    animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
