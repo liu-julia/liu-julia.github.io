@@ -106,7 +106,7 @@ h3.highlighted::before {
     width: 100%;
     background: #ffdddd;
     left: .25em;
-    bottom: .05em;
+    bottom: .25em;
     height: .7em;
     z-index: -1;
 }

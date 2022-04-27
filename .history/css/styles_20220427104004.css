@@ -106,7 +106,7 @@ h3.highlighted::before {
     width: 100%;
     background: #ffdddd;
     left: .25em;
-    bottom: .05em;
+    bottom: .15em;
     height: .7em;
     z-index: -1;
 }
@@ -117,7 +117,7 @@ h3.highlighted::before {
     text-decoration: none;
 }
 p {
-    font-size: 1.2rem;
+    font-size: 1.2em;
 }
 #head_desc {
     font-size: 1.5em;
@@ -154,23 +154,9 @@ p {
 }
 h3.highlighted {
     position: absolute;
-    bottom: 65%;
+    bottom: 70%;
 }
 #foot div {
     position: absolute;
-    bottom: 25%;
-    padding: 20px;
-}
-a {
-    font-size: 1.2rem;
-    color: black;
-    text-decoration: underline;
-    text-decoration-color: #ffb4b400;
-    transition: text-decoration ease-in .2s;
-}
-a:hover {
-    text-decoration-color: #ffb4b4;
-}
-#construction {
-    padding-left: 30px;
+    bottom: 30%;
 }

@@ -106,7 +106,7 @@ h3.highlighted::before {
     width: 100%;
     background: #ffdddd;
     left: .25em;
-    bottom: .05em;
+    bottom: .15em;
     height: .7em;
     z-index: -1;
 }
@@ -159,7 +159,6 @@ h3.highlighted {
 #foot div {
     position: absolute;
     bottom: 25%;
-    padding: 20px;
 }
 a {
     font-size: 1.2rem;
@@ -172,5 +171,5 @@ a:hover {
     text-decoration-color: #ffb4b4;
 }
 #construction {
-    padding-left: 30px;
+    float: center;
 }
