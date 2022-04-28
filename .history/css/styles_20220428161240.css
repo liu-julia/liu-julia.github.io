@@ -220,12 +220,19 @@ body {
     border-radius: 2rem;
     margin: 2em;
 }
-
-a img {
-    max-width: 8%;
+.ct-btn-scroll {
+    max-width: 10%;
     position: absolute;
     bottom: 30px;
+    left: 0;
+    right: 0;
     margin: auto;
-    left: 1rem;
-    right: 1rem;
+    padding-top: 500px;
+    z-index: 9;
+    border-radius: 50%;
+    -webkit-transition: background-color 0.25s ease-in-out;
+    transition: background-color 0.25s ease-in-out;
+}
+a img {
+    max-width: 10%;
 }

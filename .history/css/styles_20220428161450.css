@@ -222,10 +222,8 @@ body {
 }
 
 a img {
-    max-width: 8%;
+    max-width: 10%;
     position: absolute;
     bottom: 30px;
     margin: auto;
-    left: 1rem;
-    right: 1rem;
 }
