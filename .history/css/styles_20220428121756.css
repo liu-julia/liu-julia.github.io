@@ -189,7 +189,7 @@ a:hover {
     text-decoration-color: #ffb4b4;
 }
 #construction {
-    height: 100%;
+    padding-left: 30px;
 }
 
 body {

@@ -177,19 +177,17 @@ p {
     padding: 20px;
 }
 a {
+    font-size: 1.2rem;
     color: black;
     text-decoration: underline;
     text-decoration-color: #ffb4b400;
     transition: text-decoration ease-in .2s;
 }
-#foot a {
-    font-size: 1.2rem;
-}
 a:hover {
     text-decoration-color: #ffb4b4;
 }
 #construction {
-    height: 100%;
+    padding-left: 30px;
 }
 
 body {
@@ -211,7 +209,7 @@ body {
     display: flex;
     margin: auto;
     height: 40%;
-    padding: 2.5rem;
+    padding: 3.5rem;
 }
 .project img {
     max-width: 40%;

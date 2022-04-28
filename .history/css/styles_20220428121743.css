@@ -183,13 +183,13 @@ a {
     transition: text-decoration ease-in .2s;
 }
 #foot a {
-    font-size: 1.2rem;
+    
 }
 a:hover {
     text-decoration-color: #ffb4b4;
 }
 #construction {
-    height: 100%;
+    padding-left: 30px;
 }
 
 body {
