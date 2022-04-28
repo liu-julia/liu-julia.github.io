@@ -207,7 +207,7 @@ body {
      }
 }
 .project {
-    width: 70%;
+    width: 80%;
     display: flex;
     margin: auto;
     height: 40%;
@@ -220,4 +220,6 @@ body {
     border-radius: 2rem;
     margin: 2em;
 }
-
+.project-text {
+    width: 50%;
+}

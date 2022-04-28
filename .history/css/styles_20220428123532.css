@@ -220,4 +220,6 @@ body {
     border-radius: 2rem;
     margin: 2em;
 }
-
+.project-text {
+    width: 50%;
+}
