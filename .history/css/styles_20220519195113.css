@@ -294,7 +294,7 @@ input {
 input:focus {
     outline: none;
     border-bottom: 2px solid black;
-    background-color: #efefef;
+    background-color: #f2f2f2;
 }
 textarea {
     width: 100%;
@@ -307,7 +307,7 @@ textarea {
 }
 textarea:focus {
     outline-width: 2px;
-    background-color: #efefef;
+    background-color: #f2f2f2;
 
 }
 label {
