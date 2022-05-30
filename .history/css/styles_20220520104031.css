@@ -1,5 +1,5 @@
 :root {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Karla', sans-serif;
 }
 html {
     height: 100%;
@@ -115,7 +115,7 @@ h3 {
     font-size: 2em;
 }
 h4 {
-    font-size: 1.2rem;
+    font-size: 1.1em;
     line-height: 1.5em;
 }
 h3.highlighted::before {
@@ -135,7 +135,7 @@ h3.highlighted::before {
     text-decoration: none;
 }
 p {
-    font-size: 1.2rem;
+    font-size: 1.25rem;
 }
 #head_desc {
     font-size: 1.5em;
@@ -217,7 +217,7 @@ body {
     max-height: 100%;
     box-shadow: 2px 2px 10px #00000066;
     border-radius: 2rem;
-    margin: 3em;
+    margin: 2em;
 }
 
 a img {
@@ -240,7 +240,7 @@ a img {
     max-width: 30%;
     box-shadow: 2px 2px 10px #00000066;
     border-radius: 2rem;
-    margin: 1.25em;
+    margin: 2em;
 }
 
 .about-text {
@@ -288,7 +288,7 @@ input {
     border: none;
     border-bottom: 2px solid #ffffffff;
     font-size: 1.1rem;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Karla', sans-serif;
     transition: background-color .3s;
 }
 input:focus {
@@ -302,7 +302,7 @@ textarea {
     border: none;
     height: 30%;
     font-size: 1.1rem;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Karla', sans-serif;
     transition: background-color .3s;
 }
 textarea:focus {
@@ -333,7 +333,7 @@ button {
 button:hover {
     box-shadow: 6px 6px 0px #ffdddd, -6px -6px 0px #ffdddd;
 }
-.project-text h3, .project-text h4, .project-text p {
+.project-text h3, .project-text h4 {
     margin-bottom: 0px;
-    margin-top: 10px;
+    margin-top: 0px;
 }
