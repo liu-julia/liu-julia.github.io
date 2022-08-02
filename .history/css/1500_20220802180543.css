@@ -336,15 +336,10 @@ button {
     width: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    
+    transition: box-shadow .3s;
 }
-button mark {
-    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #ffddddb0 50%);
-    transition: background .3s;
-}
-button mark:hover {
-    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #ffdddd 50%);
-    cursor: pointer;
+button:hover {
+    box-shadow: 6px 6px 0px #ffdddd, -6px -6px 0px #ffdddd;
 }
 .project-text h3, .project-text h4, .project-text p {
     margin-bottom: 0px;

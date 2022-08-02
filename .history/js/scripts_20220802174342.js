@@ -11,7 +11,6 @@ if (window.innerWidth > 1500) {
   }
 }
 function toggleMenu() {
-  var menu = document.getElementById("ham");
   if (menu.classList.contains("showMenu")) {
     menu.classList.remove("showMenu");
   } else {

@@ -10,11 +10,11 @@ if (window.innerWidth > 1500) {
     prevScrollpos = currentScrollPos;
   }
 }
-function toggleMenu() {
-  var menu = document.getElementById("ham");
-  if (menu.classList.contains("showMenu")) {
-    menu.classList.remove("showMenu");
+function toggleMenu () {
+  var mobMenu = document.getElementById("ham");
+  if (document.getElementById("ham").style.right == "0") {
+    document.getElementById("ham").style.right = "-100px";
   } else {
-    menu.classList.add("showMenu");
+    document.getElementById("ham").style.right = "0";
   }
 }
