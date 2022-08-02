@@ -40,14 +40,14 @@ body {
 h1 {
     font-family: 'Prata', serif;
     font-weight: 400;
-    font-size: 6.25vw;
+    font-size: 6vw;
 }
 #top {
     height: 100%;
 }
 h1{
     position: absolute;
-    bottom: 11rem;
+    bottom: 12rem;
     left: 1em;
     right: 1em;
     text-align: center;
@@ -184,7 +184,8 @@ p {
 }
 a {
     color: black;
-    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #ffddddb0 50%);
+    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #ffddddb0
+    50%);
     transition: background .3s;
     text-decoration: none;
 }
@@ -192,7 +193,8 @@ a {
     font-size: 1.2rem;
 }
 a:hover {
-    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #ffdddd 50%);
+    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #ffdddd
+    50%);
 }
 #construction {
     height: 100%;

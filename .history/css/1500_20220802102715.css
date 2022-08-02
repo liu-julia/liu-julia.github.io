@@ -40,20 +40,19 @@ body {
 h1 {
     font-family: 'Prata', serif;
     font-weight: 400;
-    font-size: 6.25vw;
+    font-size: 6em;
 }
 #top {
     height: 100%;
 }
 h1{
     position: absolute;
-    bottom: 11rem;
-    left: 1em;
-    right: 1em;
+    bottom: 12rem;
+    left: 1rem;
+    right: 1rem;
     text-align: center;
     margin: auto;
-    width: auto;
-    max-width: 75%;
+    width: 75%;
 }
 h1.highlighted::before {
     content: "";
@@ -78,10 +77,6 @@ h1.highlighted::before {
         transform: scaleX(1);
         transform-origin: left;
      }
-}
-
-#navbar a {
-    background: none;
 }
 
 #navbar a.highlighted::before {
@@ -184,15 +179,17 @@ p {
 }
 a {
     color: black;
-    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #ffddddb0 50%);
-    transition: background .3s;
+    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #ffdddd80
+    50%);
+    transition: background ease-in .3s;
     text-decoration: none;
 }
 #foot a {
     font-size: 1.2rem;
 }
 a:hover {
-    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #ffdddd 50%);
+    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #ffdddd
+    50%);
 }
 #construction {
     height: 100%;

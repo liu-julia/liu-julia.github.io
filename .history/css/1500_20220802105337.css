@@ -184,7 +184,8 @@ p {
 }
 a {
     color: black;
-    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #ffddddb0 50%);
+    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #ffddddb0
+    50%);
     transition: background .3s;
     text-decoration: none;
 }
@@ -192,7 +193,8 @@ a {
     font-size: 1.2rem;
 }
 a:hover {
-    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #ffdddd 50%);
+    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #ffdddd
+    50%);
 }
 #construction {
     height: 100%;

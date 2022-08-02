@@ -32,7 +32,7 @@ header {
     display: none;
 }
 mark {
-    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #ffdddd 50%);
+    background-color: #ffdddd;
 }
 
 #face {

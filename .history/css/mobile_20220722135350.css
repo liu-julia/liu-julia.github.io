@@ -32,7 +32,7 @@ header {
     display: none;
 }
 mark {
-    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #ffdddd 50%);
+    background-color: #ffdddd;
 }
 
 #face {
@@ -60,7 +60,7 @@ h1{
     width: 90%;
 }
 #head_desc {
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: 400;
     position: absolute;
     bottom: 6rem;
