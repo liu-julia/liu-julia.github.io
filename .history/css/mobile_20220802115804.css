@@ -107,11 +107,8 @@ a {
 }
 h3 {
     font-family: 'Playfair Display', serif;
-    font-size: 1.75em;
-}
-h3.highlighted {
-    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #ffdddd 50%);
+    font-size: 2em;
 }
 #foot {
-    padding: 2em;
+    padding-bottom: 2em;
 }
