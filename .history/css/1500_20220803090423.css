@@ -275,7 +275,7 @@ h2.highlighted::before {
 .form-container {
     width: 70%;
     margin: auto;
-    height: 100vh;
+    height: 100%;
     align-items: center;
 }
 
