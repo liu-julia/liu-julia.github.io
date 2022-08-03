@@ -356,3 +356,6 @@ button mark:hover {
 #hamburger {
     display: none;
 }
+.hideme {
+    opacity: 0;
+}
