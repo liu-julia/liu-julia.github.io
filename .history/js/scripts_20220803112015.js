@@ -29,6 +29,6 @@ function hideFooter() {
 function showFooter() {
   if (window.innerWidth < 1500) {
     var foot = document.getElementById("foot");
-    foot.style.display = "block";
+    foot.style.display = "inline";
   }
 }

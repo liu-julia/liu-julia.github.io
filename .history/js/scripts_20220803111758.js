@@ -20,15 +20,13 @@ function toggleMenu() {
     document.body.style.overflowY = 'hidden';
   }
 }
-function hideFooter() {
+function toggleFooter() {
   if (window.innerWidth < 1500) {
     var foot = document.getElementById("foot");
-    foot.style.display = "none";
-  }
-}
-function showFooter() {
-  if (window.innerWidth < 1500) {
-    var foot = document.getElementById("foot");
-    foot.style.display = "block";
+    if (foot.style.display == "none") {
+      foot.style.display = "inline";
+    } else {
+      foot.style.display = "none";
+    }
   }
 }

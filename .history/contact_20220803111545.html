@@ -36,13 +36,13 @@
             <form>
                 <p>Have any questions for me? Let's get in touch! Feel free to reach out to <b>juli<!--anti spam-->aliu1233 <!--anti spam--> [at] gmai<!--anti spam-->l [dot] com</b>, or, alternatively, fill out this nifty form:</p>
                 <label for="name"> Name:</label><br>
-                <input type="text" id="name" name="name" onfocus="hideFooter()" onblur="showFooter()" required><br><br>
+                <input type="text" id="name" name="name" onfocus="toggleFooter()" required><br><br>
                 <label for="email">Email:</label><br>
-                <input type="email" id="email" onfocus="hideFooter()" onblur="showFooter()" required><br><br>
+                <input type="email" id="email" required onfocus="toggleFooter()"><br><br>
                 <label for="subject">Subject:</label><br>
-                <input type="text" id="subject" name="subject" onfocus="hideFooter()" onblur="showFooter()" required><br><br>
+                <input type="text" id="subject" name="subject" onfocus="toggleFooter()" required><br><br>
                 <label for="message">Message:</label><br>
-                <textarea id="message" name="message" onfocus="hideFooter()" onblur="showFooter()" required></textarea>
+                <textarea id="message" name="message" onfocus="toggleFooter()" required></textarea>
                 <button type="submit" value="Submit"><mark>Submit</mark></buttom>
             </form>
         </div>
