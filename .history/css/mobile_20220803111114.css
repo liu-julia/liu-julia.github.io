@@ -8,9 +8,6 @@ html {
 body {
     height: 100%;
 }
-#content {
-    height: 100%;
-}
 header {
     position: fixed;
     top: 0;
@@ -251,4 +248,9 @@ button mark {
 button mark:hover {
     background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #ffdddd 50%);
     cursor: pointer;
+}
+#content {
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 90px; /* footer's height */
 }
